@@ -6,35 +6,35 @@ body {
     display: grid;
     grid-template: 100%/75% 25%;
 
-    margin-top: 100px;
-    margin-right: 380px;
-    margin-left: 380px;
+    margin-top: 7.7vw;
+    margin-right: 29.23vw;
+    margin-left: 29.23vw;
 }
 
 .myBalance-area {
     grid-area: 1/1/2/2;
     background-color: #ec755d;
-    padding-left: 25px;
-    padding-top: 21px;
-    padding-bottom: 21px;
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px;
+    padding-left: 1.923vw;
+    padding-top: 1.615vw;
+    padding-bottom: 1.615vw;;
+    border-bottom-left-radius: 1.1538vw;
+    border-top-left-radius: 1.1538vw;
 
 }
 
 .myBalance-area .myBalance-text {
     color: white;
-    font-size: 15px;
+    font-size: 1.1538vw;
     font-family:Arial, Helvetica, sans-serif;
     
 }
 
 .myBalance-area .myBalance-amount {
     color: white;
-    font-size: 25px;
-    margin-top: 5px;
+    font-size: 1.923vw;
+    margin-top: 0.38461vw;
     font-family:Arial, Helvetica, sans-serif;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.038461vw
 }
 
 
@@ -44,8 +44,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
+    border-bottom-right-radius: 1.1538vw;
+    border-top-right-radius: 1.1538vw;
 }
 
 
@@ -55,63 +55,63 @@ body {
 
 .grid-container-spending {
     display: grid;
-    grid-template: 1fr 1fr 1fr/1fr 1fr;
-    margin-top: 20px;
-    margin-right: 380px;
-    margin-left: 380px;
+    grid-template: 5vw 15.38vw 7.69vw/1fr 1fr;
+    margin-top: 1.53846vw;
+    margin-right: 29.23vw;
+    margin-left: 29.23vw;
 }
 
 .title-area {
     grid-area: 1/1/2/3;
-    background-color: blue;
+    background-color: #fffcf7;
 
-    padding-left: 30px;
-    padding-top: 20px;
+    padding-left: 2.307vw;
+    padding-top: 1.538vw;
 
-    font-size: 22px;
-    letter-spacing: 1.6px;
+    font-size: 1.692vw;
+    letter-spacing: 0.12307vw;
     font-weight: bold;
     font-family:Arial, Helvetica, sans-serif;
 
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+    border-top-right-radius: 1.1538vw;
+    border-top-left-radius: 1.1538vw;
 }
 
 
 
 .total-month-area {
     grid-area: 3/1/4/2;
-    background-color: rgb(255, 7, 7);
-    padding-left: 30px;
+    background-color: #fffcf7;
+    padding-left: 2.307vw;
     display: flex;
     flex-direction: column;
-    border-bottom-left-radius: 15px;
+    border-bottom-left-radius: 1.1538vw;
 }
 
 .total-month-area .total-month-area-text {
     color: rgb(136, 136, 136);
-    font-size: 18px;
+    font-size: 1.3846vw;
     font-family:Arial, Helvetica, sans-serif;
 }
 
 .total-month-area .total-month-area-amount{
     color: rgb(0, 0, 0);
-    font-size: 40px;
+    font-size: 3.0769vw;
     font-family:Arial, Helvetica, sans-serif;
-    letter-spacing: 0.5px;
-    margin-top: -2px;
+    letter-spacing: 0.0384vw;
+    margin-top: -0.1538vw;
     font-weight: bold;
 }
 
 .growth-rate-area {
     grid-area: 3/2/4/3;
-    background-color: rgb(212, 255, 0);
+    background-color: #fffcf7;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
-    padding-top: 25px;
-    padding-right: 25px;
-    border-bottom-right-radius: 15px;
+    padding-top: 1.92307vw;
+    padding-right: 1.92307vw;
+    border-bottom-right-radius: 1.1538vw;
     
 
     
@@ -119,16 +119,16 @@ body {
 
 .growth-rate-area .growth-rate-area-amount {
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 1.538vw;
     font-family:Arial, Helvetica, sans-serif;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.03846vw;
     font-weight: bold;
 }
 
 .growth-rate-area .growth-rate-area-text {
     color: rgb(136, 136, 136);
-    font-size: 18px;
-    margin-top: -3px;
+    font-size: 1.3846vw;
+    margin-top: -0.2307vw;
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -136,5 +136,44 @@ body {
 /*Graph*/
 .graph-area {
     grid-area: 2/1/3/3;
-    background-color: rgb(0, 255, 187);
+    background-color: #fffcf7;
 }
+
+.svg-graph {
+    width: 100%;
+    height: 90%;
+    background-color: #fffcf7;
+}
+
+.svg-divider {
+    width: 100%;
+    height: 10%;
+    background-color:#fffcf7;
+}
+
+.label {
+    fill: rgb(136, 136, 136);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.1538vw;
+    x: 1.1538vw;
+    y: 11.538vw;
+}
+
+.bar {
+    width: 3.8461vw;
+    height: 10vw;
+    rx : 0.5384vw;
+    ry : 0.5384vw;
+    fill: #ec755d;
+}
+
+/*Day bar*/
+.bar-mon {transform: translate(2.30769vw);}
+.bar-tue {transform: translate(7.30769vw);}
+.bar-wed {transform: translate(12.3076vw);}
+.bar-thu {transform: translate(17.307vw);}
+.bar-fri {transform: translate(22.3076vw);}
+.bar-sat {transform: translate(27.3076vw);}
+.bar-sun {transform: translate(32.3076vw);}
+
+
