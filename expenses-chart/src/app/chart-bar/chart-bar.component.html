@@ -1,0 +1,7 @@
+<svg class="def" viewbox="0 0 10 10" >
+    <g (mouseover)="changeText=true" (mouseout)="changeText=false">
+        <rect [attr.y]= "valueY"  width="45px" [attr.height]="valueH" ></rect>
+    </g>
+</svg>
+<p> {{day}} </p>
+<p  *ngIf="changeText" class="expense" >{{value}}</p>
