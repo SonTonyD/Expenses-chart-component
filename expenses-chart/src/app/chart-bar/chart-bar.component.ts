@@ -14,11 +14,29 @@ export class ChartBarComponent implements OnInit {
 
   changeText = false;
 
+  color = "#ec755d"
+
   constructor() { }
 
 
   ngOnInit(): void {
   }
+
+  hover(event: any) {
+    if (this.selected == false) {
+      event.target.setAttribute("style", "fill:#ec755d;stroke-width:5;opacity:0.5")
+    }
+
+    
+  }
+
+  hoverOut(event: any) {
+    if (this.selected == false) {
+      event.target.setAttribute("style", "fill:#ec755d;stroke-width:5;opacity:1")
+    }
+    
+  }
+  
 
 
 }

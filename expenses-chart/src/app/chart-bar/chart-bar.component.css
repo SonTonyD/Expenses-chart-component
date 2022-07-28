@@ -12,7 +12,6 @@ rect {
 }
 
 rect:hover {
-    fill: #fca08e;
     cursor: pointer;
     
 }
@@ -31,6 +30,4 @@ p {
     color: white;
 }
 
-.amount {
-}
 
