@@ -1,7 +1,9 @@
 <svg class="def" viewbox="0 0 10 10" >
+    <g>
+        <text *ngIf="changeText || selected" class="amount" x="0" [attr.y]= "valueY" fill="black"> ${{value}} </text>
+    </g>
     <g (mouseover)="changeText=true" (mouseout)="changeText=false">
-        <rect [attr.y]= "valueY"  width="45px" [attr.height]="valueH" ></rect>
+        <rect [attr.y]= "valueY"  width="45px" [attr.height]="valueH" [attr.name]= "day" style="fill:#ec755d;stroke-width:5;opacity:1"></rect>
     </g>
 </svg>
 <p> {{day}} </p>
-<p  *ngIf="changeText" class="expense" >{{value}}</p>

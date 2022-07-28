@@ -10,6 +10,7 @@ export class ChartBarComponent implements OnInit {
   @Input() valueY!: number;
   @Input() valueH!: number;
   @Input() value!: number;
+  @Input() selected!: boolean;
 
   changeText = false;
 
@@ -18,5 +19,6 @@ export class ChartBarComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
 
 }
