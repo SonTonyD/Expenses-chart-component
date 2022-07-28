@@ -5,10 +5,33 @@
     height: 200px;
 }
 
+@media(max-width:500px) {
+    .def {
+        margin-left: 2.58vw;
+        padding-top: 2.44vw;
+        width: 7.75vw;
+        height: 34.48vw;
+    }
+
+    rect {
+        width: 6vw;
+    }
+
+    p {
+        margin-top: 1.379vw;
+        margin-left: 4.1379vw;
+    }
+
+    .amount {
+        font-size: 7px;
+    }
+}
+
 rect {
     fill: #ec755d;
     rx : 7px;
     ry: 7px;
+    width: 45px;
 }
 
 rect:hover {
@@ -26,8 +49,12 @@ p {
 }
 
 .expense {
-    background-color: maroon;
+    background-color: rgb(255, 255, 255);
     color: white;
+}
+
+.amount {
+    font-size: 15px;
 }
 
 

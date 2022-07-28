@@ -31,3 +31,11 @@
     align-items: center;
     
 }
+
+@media(max-width:500px) {
+    .container {
+        width: 86.2vw;
+        border-radius: 2.58vw;
+        margin-top: 12.068vw;
+    }
+}

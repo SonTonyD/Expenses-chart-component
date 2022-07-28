@@ -8,6 +8,15 @@
     margin-top: 20px;
 }
 
+@media(max-width:500px) {
+    .container {
+        height: 86.20vw;
+        width: 86.20vw;
+        border-radius: 2.58vw;
+        margin-top: 3.44vw;
+    }
+}
+
 .title {
     font-size: 30px;
     font-weight: bold;
@@ -53,4 +62,5 @@
     font-size: 17px;
     font-weight: bold;
 }
+
 
