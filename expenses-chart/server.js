@@ -9,4 +9,4 @@ app.get('/*', function(req,res) {
     res.sendFile(path.join(__dirname+ '/dist/expenses-chart/index.html'));
 })
 
-app.listen(process.env.PORT);
+app.listen(process.env.PORT|| 8080);
